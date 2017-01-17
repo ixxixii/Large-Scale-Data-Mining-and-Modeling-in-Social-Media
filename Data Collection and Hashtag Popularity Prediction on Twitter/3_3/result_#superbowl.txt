@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.868
+Model:                            OLS   Adj. R-squared:                  0.858
+Method:                 Least Squares   F-statistic:                     86.79
+Date:                Tue, 17 Mar 2015   Prob (F-statistic):           9.97e-38
+Time:                        21:28:53   Log-Likelihood:                -699.93
+No. Observations:                 100   AIC:                             1416.
+Df Residuals:                      92   BIC:                             1437.
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+const        284.9362     62.974      4.525      0.000       159.865   410.007
+x1           -11.2907      2.038     -5.541      0.000       -15.338    -7.244
+x2             0.0315      0.038      0.835      0.406        -0.043     0.106
+x3          -2.24e-06   2.87e-06     -0.781      0.437     -7.94e-06  3.46e-06
+x4           -10.1042      4.248     -2.379      0.019       -18.541    -1.668
+x5             2.6218      0.503      5.208      0.000         1.622     3.622
+x6             0.9003      0.478      1.884      0.063        -0.049     1.849
+x7            -0.7862      1.235     -0.637      0.526        -3.238     1.666
+==============================================================================
+Omnibus:                       35.905   Durbin-Watson:                   1.569
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              174.318
+Skew:                           0.996   Prob(JB):                     1.40e-38
+Kurtosis:                       9.154   Cond. No.                     6.95e+07
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.95e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
